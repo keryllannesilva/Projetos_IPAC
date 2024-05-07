@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:  #044104; /* Verde escuro */
+    color: #fff; /* Branco */
+}
+
+.container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        padding: 20px;
+        text-align: center;
+    
+        }
+    
+    h1 {
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+    
+    .icon {
+        position: absolute;
+        top: 70px;   
+    }
+    
+    /* Estilos para o formulário */
+    form {
+        width: 100%;
+        max-width: 300px;
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+    
+    input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: none;
+        border-radius: 5px;
+        
+    }
+    
+    button {
+        background-color: #fff;
+        color: #336633;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    /* Responsividade */
+    @media screen and (max-width: 600px) {
+        h1 {
+            font-size: 1.5em;
+        }
+    }
+
